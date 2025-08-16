@@ -1,0 +1,17 @@
+body {
+    background-color: #F6F0F0; /* Warna biru muda */
+  }
+
+.container {
+    position: absolute;
+    height: 20rem;
+    width: 78rem;
+}
+ .atas{
+      position: absolute;
+      text-align: center;
+      left: 32rem;
+      color: #454040;
+     font-size: 2rem;
+  }
+  
