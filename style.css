@@ -1,5 +1,9 @@
+*{
+  margin: 0 auto;
+}
+
 body {
-    background-color: #DDDAD0; /* Warna biru muda */
+    background-color: #DDDAD0;
   }
 
 .container {
@@ -13,6 +17,8 @@ body {
       left: 23rem;
       color: #454040;
      font-size: 2rem;
+     margin:1rem ;
+    
   }
 
 .garis {
@@ -31,7 +37,7 @@ body {
       left: 33rem;
       color: #454040;
      font-size: 1.5rem;
-     top: 5rem;
+     top: 5.5rem;
   }
 .garis2 {
       position: relative;
@@ -95,3 +101,153 @@ body {
         width: 90%;
         /* margin: 20px auto; */
       }
+.teks3{
+      position: absolute;
+      text-align: left;
+      /* left: -1rem; */
+      color: #454040;
+      font-size: 3rem;
+      top: 27rem;
+  }
+.desk2{
+  position: absolute;
+  text-align: left;
+  /* left: 1rem; */
+  color: #454040;
+  font-size: 2rem;
+  top: 33rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.teks4{
+      position: absolute;
+      text-align: right;
+      /* left: -1rem; */
+      color: #454040;
+      right: 1rem;
+      font-size: 3rem;
+      top: 59rem;
+  }
+.garis4 {
+        position: relative;
+        left: -27rem;
+        top: 40rem;
+        border: none;
+        height: 2px;
+        background-color: #444342;
+        width: 30%;
+        /* margin: 20px auto; */
+      }
+
+.desk3{
+  position: absolute;
+  text-align: right;
+  /* left: 1rem; */
+  color: #454040;
+  font-size: 2rem;
+  top: 65rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.person{
+      position: absolute;
+      text-align: center;
+      left: 20rem;
+      color: #454040;
+      box-shadow: #454040;
+      font-size: 3rem;
+      top: 150rem;
+  }
+
+  .bgfoto{
+    position: absolute;
+    height: 33em;
+    width: 78rem;
+    background-color: #57564F;
+    top: 160rem;
+  }
+    
+  .foto-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    /* margin-top: 50px; */
+    position: absolute;
+    top: 160rem;
+   
+  
+  }
+  
+  .foto-item {
+    text-align: center;
+    opacity: 0; /* <- ini penting */
+    transform: translateY(0px); /* <- ini juga penting */
+    animation: geserMasuk 0.8s ease forwards;
+    transition: all 0.8s ease;
+  }
+  
+  .foto-item.show {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  
+  
+  .foto-item img {
+    /* width: 150px;
+    height: auto; */
+    margin: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(235, 230, 230, 0.1);
+    
+  }
+  
+  .foto-item figcaption {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #f5f1f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-align: justify; */
+  }
+  
+  @keyframes geserMasuk {
+    to {
+      opacity: 1;
+      transform: translateY(30px);
+    }
+  }
+.teks5{
+      position: absolute;
+      text-align: center;
+      left: 1rem;
+      color: #57564F;
+      right: 1rem;
+      font-size: 2.5rem;
+      top: 200rem;
+  }
+.desk4{
+  position: absolute;
+  text-align: center;
+  left: 1rem;
+  color: #454040;
+  font-size: 2rem;
+  top: 205rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.garis5 {
+        position: relative;
+        left: 1rem;
+        top: 220rem;
+        border: none;
+        height: 3.5px;
+        background-color: #444342;
+        width: 90%;
+        /* margin: 20px auto; */
+      }
+.end{
+      position: absolute;
+      text-align: center;
+      left: 1rem;
+      color: #57564F;
+      right: 1rem;
+      font-size: 2.5rem;
+      top: 229rem;
+  }
