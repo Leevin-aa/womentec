@@ -1,253 +1,158 @@
-*{
-  margin: 0 auto;
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
 }
 
 body {
     background-color: #DDDAD0;
-  }
-
-.container {
-    position: absolute;
-    height: 20rem;
-    width: 78rem;
 }
-.atas{
-      position: absolute;
-      text-align: center;
-      left: 23rem;
-      color: #454040;
-     font-size: 2rem;
-     margin:1rem ;
-    
-  }
+
+.atas {
+    margin-top: 10px;
+    text-align: center;
+    color: #454040;
+    font-size: 2rem;
+}
 
 .garis {
-      position: relative;
-      left: -1rem;
-      top: 5rem;
-      border: none;
-      height: 3px;
-      background-color: #444342;
-      width: 90%;
-      /* margin: 20px auto; */
-    }
-.pemilik{
-      position: absolute;
-      text-align: center;
-      left: 33rem;
-      color: #454040;
-     font-size: 1.5rem;
-     top: 5.5rem;
-  }
-.garis2 {
-      position: relative;
-      left: -1rem;
-      top: 7.5rem;
-      border: none;
-      height: 3.5px;
-      background-color: #444342;
-      width: 90%;
-      /* margin: 20px auto; */
-    }
-.judul{
-      position: absolute;
-      text-align: center;
-      left: -1rem;
-      color: #454040;
-      font-size: 4rem;
-      top: 10rem;
-  }
-
-.foto{
-    position: absolute;
-    /* width: 30rem;
-    height: 40rem; */
-    top: 25rem;
-    left: 3rem;
-  }
-.teks2{
-      position: absolute;
-      text-align: center;
-      left: 10rem;
-      color: #454040;
-      font-size: 3rem;
-      top: 50rem;
-  }
-.garis3 {
-        position: relative;
-        left: -1rem;
-        top: 57rem;
-        border: none;
-        height: 3.5px;
-        background-color: #444342;
-        width: 90%;
-        /* margin: 20px auto; */
-      }
-.desk{
-  position: absolute;
-  text-align: center;
-  /* left: 1rem; */
-  color: #454040;
-  font-size: 2rem;
-  top: 60rem;
+    position: relative;
+    border: none;
+    height: 3px;
+    background-color: #444342;
+    width: 90%;
+    margin-top: 10px;
+    /* margin: 20px auto; */
 }
-.garis3 {
-        position: relative;
-        left: -1rem;
-        top: 77rem;
-        border: none;
-        height: 3.5px;
-        background-color: #444342;
-        width: 90%;
-        /* margin: 20px auto; */
-      }
-.teks3{
-      position: absolute;
-      text-align: left;
-      /* left: -1rem; */
-      color: #454040;
-      font-size: 3rem;
-      top: 27rem;
-  }
-.desk2{
-  position: absolute;
-  text-align: left;
-  /* left: 1rem; */
-  color: #454040;
-  font-size: 2rem;
-  top: 33rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.teks4{
-      position: absolute;
-      text-align: right;
-      /* left: -1rem; */
-      color: #454040;
-      right: 1rem;
-      font-size: 3rem;
-      top: 59rem;
-  }
-.garis4 {
-        position: relative;
-        left: -27rem;
-        top: 40rem;
-        border: none;
-        height: 2px;
-        background-color: #444342;
-        width: 30%;
-        /* margin: 20px auto; */
-      }
 
-.desk3{
-  position: absolute;
-  text-align: right;
-  /* left: 1rem; */
-  color: #454040;
-  font-size: 2rem;
-  top: 65rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.person{
-      position: absolute;
-      text-align: center;
-      left: 20rem;
-      color: #454040;
-      box-shadow: #454040;
-      font-size: 3rem;
-      top: 150rem;
-  }
-
-  .bgfoto{
-    position: absolute;
-    height: 33em;
-    width: 78rem;
-    background-color: #57564F;
-    top: 160rem;
-  }
-    
-  .foto-container {
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    /* margin-top: 50px; */
-    position: absolute;
-    top: 160rem;
-   
-  
-  }
-  
-  .foto-item {
+.pemilik {
     text-align: center;
-    opacity: 0; /* <- ini penting */
-    transform: translateY(0px); /* <- ini juga penting */
-    animation: geserMasuk 0.8s ease forwards;
-    transition: all 0.8s ease;
-  }
-  
-  .foto-item.show {
-    opacity: 1;
-    transform: translateY(30px);
-  }
-  
-  
-  .foto-item img {
-    /* width: 150px;
-    height: auto; */
-    margin: 3rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(235, 230, 230, 0.1);
-    
-  }
-  
-  .foto-item figcaption {
-    margin-top: 1rem;
+    color: #454040;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.judul {
+    text-align: center;
+    color: #454040;
+    font-size: 4rem;
+    width: 80%;
+    margin-top: 3rem;
+}
+
+.foto {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.teks2 {
+    text-align: center;
+    color: #454040;
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+
+.about {
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #454040;
+    width: 80%;
+    margin-bottom: 3rem;
+}
+
+.daftardesk {
+    width: 90%;
+}
+
+.desk {
+    margin-top: 3rem;
+}
+
+.desk:nth-child(odd) .juduldesk {
+    color: #454040;
+    text-align: left;
+    font-size: 3rem;
+}
+
+.desk:nth-child(odd) .deskripsi {
+    color: #454040;
+    text-align: left;
+    font-weight: 100;
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+.desk:nth-child(even) .juduldesk {
+    color: #454040;
+    text-align: right;
+    font-size: 3rem;
+}
+
+.desk:nth-child(even) .deskripsi {
+    color: #454040;
+    text-align: right;
+    font-weight: 100;
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+.person {
+    text-align: center;
+    color: #454040;
+    box-shadow: #454040;
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+
+.bgfoto {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 3rem;
+    height: auto;
+    width: 100%;
+    background-color: #57564F;
+}
+
+.fotowanita {
+    margin-top: 3rem;
+}
+
+.fotowanita h6 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
     font-size: 1.5rem;
     color: #f5f1f1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* text-align: justify; */
-  }
-  
-  @keyframes geserMasuk {
-    to {
-      opacity: 1;
-      transform: translateY(30px);
-    }
-  }
-.teks5{
-      position: absolute;
-      text-align: center;
-      left: 1rem;
-      color: #57564F;
-      right: 1rem;
-      font-size: 2.5rem;
-      top: 200rem;
-  }
-.desk4{
-  position: absolute;
-  text-align: center;
-  left: 1rem;
-  color: #454040;
-  font-size: 2rem;
-  top: 205rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.garis5 {
-        position: relative;
-        left: 1rem;
-        top: 220rem;
-        border: none;
-        height: 3.5px;
-        background-color: #444342;
-        width: 90%;
-        /* margin: 20px auto; */
-      }
-.end{
-      position: absolute;
-      text-align: center;
-      left: 1rem;
-      color: #57564F;
-      right: 1rem;
-      font-size: 2.5rem;
-      top: 229rem;
-  }
+.teks5 {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #57564F;
+    font-size: 2.5rem;
+}
+
+.desk4 {
+    margin-bottom: 3rem;
+    text-align: center;
+    width: 90%;
+    color: #454040;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.end {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #57564F;
+    font-size: 2.5rem;
+    width: 90%;
+}
