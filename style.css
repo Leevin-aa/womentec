@@ -46,6 +46,12 @@ body {
     margin-top: 3rem;
 }
 
+.foto img {
+    width: 80vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
 .teks2 {
     text-align: center;
     color: #454040;
