@@ -44,6 +44,7 @@ body {
 .foto {
     text-align: center;
     margin-top: 3rem;
+    width: 80%;
 }
 
 .foto img {
