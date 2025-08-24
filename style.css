@@ -125,6 +125,8 @@ body {
 
 .fotowanita {
     margin-top: 3rem;
+   
+    
 }
 
 .fotowanita h6 {
@@ -135,6 +137,13 @@ body {
     color: #f5f1f1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+ a img {
+      text-decoration: none; 
+      border: none;          
+    }
+a {
+      text-decoration: none; 
+    }
 
 .teks5 {
     margin-top: 5rem;
